@@ -4,7 +4,7 @@ from web3 import Web3
 app = Flask(__name__)
 
 # Настройка Web3 (замените на ваши данные)
-infura_url = "https://github.com/delta1842/ledoviyshop.git"
+infura_url = "ya.ru"
 web3 = Web3(Web3.HTTPProvider(infura_url))
 
 # Адрес вашего кошелька
